@@ -62,7 +62,5 @@ var findMedianSortedArrays = function(nums1, nums2) {
             else sum += nums2.shift();
         }
         return sum / 2;
-    }
-    
-    
+    }  
 };
