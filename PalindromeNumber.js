@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {boolean}
  */
-var isPalindrome = function (x) {
+var isPalindrome = function(x) {
   let s = "";
   let inital = x;
 
@@ -12,14 +12,14 @@ var isPalindrome = function (x) {
     return false;
   }
 
-
   while (inital !== 0) {
-    s += (inital % 10);
+    s += inital % 10;
     inital = Math.floor(inital / 10);
   }
 
   if (parseInt(s) === x) {
     return true;
   } else return false;
-
 };
+
+console.log(isPalindrome(101));
