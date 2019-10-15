@@ -19,3 +19,6 @@ var longestCommonPrefix = function(strs) {
   if (prefix == undefined) return "";
   return prefix;
 };
+
+console.log(["tea", "tee", "tell"]);
+console.log(["h", "e", "y"]);
